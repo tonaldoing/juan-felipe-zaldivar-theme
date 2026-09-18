@@ -81,3 +81,19 @@ function jfz_fallback_menu() {
 	}
 	echo '</ul>';
 }
+
+/**
+ * Al activar el tema: permalinks por nombre de entrada, zona horaria y rewrites de eventos/tipos.
+ */
+add_action( 'after_switch_theme', 'jfz_on_activation', 20 );
+function jfz_on_activation() {
+	if ( ! get_option( 'permalink_structure' ) ) {
+		update_option( 'permalink_structure', '/%postname%/' );
+	}
+	if ( ! get_option( 'timezone_string' ) && ! (float) get_option( 'gmt_offset' ) ) {
+		update_option( 'timezone_string', 'America/Argentina/Buenos_Aires' );
+	}
+	jfz_register_tipo();
+	jfz_register_evento();
+	flush_rewrite_rules();
+}

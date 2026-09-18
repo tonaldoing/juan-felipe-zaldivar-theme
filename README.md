@@ -71,12 +71,21 @@ php scripts/build-demo-xml.php > demo-content/demo.xml
 ## Instalación
 
 1. Subir la carpeta del tema a `wp-content/themes/juan-felipe-zaldivar` y activarlo.
-2. Ajustes → Enlaces permanentes: elegir "Nombre de la entrada" y guardar.
-3. Ajustes → Generales: zona horaria Buenos Aires, idioma Español (Argentina).
-4. Opcional: Herramientas → Importar → WordPress, subir `demo-content/demo.xml` para ver el sitio con contenido. Después se borra desde el aviso que aparece en el admin.
+2. Al activarse, el tema deja los enlaces permanentes en "Nombre de la entrada" y la zona horaria en Buenos Aires si estaban sin configurar.
+3. Ajustes → Generales: idioma Español (Argentina).
+4. Opcional: en el panel aparece un aviso "¿Querés ver el sitio con contenido de ejemplo?" con un botón que carga `demo-content/demo.xml` (no hace falta ningún plugin). Después se borra desde otro aviso, con otro botón.
 5. Apariencia → Opciones del sitio: cargar la URL del newsletter, email de contacto y redes.
 6. Apariencia → Menús: crear el menú principal (si no hay ninguno, el tema muestra Inicio, Índice, Eventos y Sobre mí).
 
 ## Deploy
 
-`.github/workflows/deploy.yml` sube el tema por SFTP en cada push a `master`. Necesita los secrets `FTP_HOST`, `FTP_USER`, `FTP_PASS` y `FTP_REMOTE_DIR` en el repo.
+`.github/workflows/deploy.yml` sube el tema por FTP en cada push a `master` (y también a mano desde la pestaña Actions). Necesita estos secrets en el repo (Settings → Secrets and variables → Actions):
+
+| Secret | Valor |
+|---|---|
+| `FTP_HOST` | host FTP del hosting (Hostinger: `ftp.tudominio.com` o la IP que muestra hPanel) |
+| `FTP_USER` | usuario FTP |
+| `FTP_PASS` | contraseña FTP |
+| `FTP_REMOTE_DIR` | carpeta del tema, por ejemplo `/public_html/wp-content/themes/juan-felipe-zaldivar/` |
+
+La carpeta remota se crea sola en el primer deploy. Después de ese primer deploy hay que activar el tema en Apariencia → Temas.

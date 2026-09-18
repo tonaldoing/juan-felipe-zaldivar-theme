@@ -60,9 +60,9 @@ El evento con la fecha más próxima aparece **destacado arriba de la portada**.
 - **Contacto y redes**: email, Instagram y una red más. Aparecen en el pie.
 - **Textos del sitio**: la frase del pie y la etiqueta del aviso de evento ("Próximo evento").
 
-## 5. Borrar el contenido de ejemplo
+## 5. Contenido de ejemplo
 
-El sitio viene con textos y eventos de muestra. Mientras existan, en el panel aparece un aviso azul: **"Hay contenido de ejemplo cargado"** con el botón **Borrar contenido de ejemplo**. Un clic los borra a todos de una vez (no pasan por la papelera). Las páginas Índice y Sobre mí no se borran.
+Con el sitio vacío, el panel muestra un aviso **"¿Querés ver el sitio con contenido de ejemplo?"** con el botón **Cargar contenido de ejemplo**. Carga textos y eventos de muestra para ver cómo se ve todo. Mientras existan textos de muestra, en el panel aparece otro aviso: **"Hay contenido de ejemplo cargado"** con el botón **Borrar contenido de ejemplo**. Un clic los borra a todos de una vez (no pasan por la papelera). Las páginas Índice y Sobre mí no se borran.
 
 Si preferís borrarlos de a uno, todos tienen la etiqueta `demo`.
 
