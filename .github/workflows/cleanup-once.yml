@@ -17,6 +17,7 @@ jobs:
           H: ${{ secrets.FTP_HOST }}
           U: ${{ secrets.FTP_USER }}
           P: ${{ secrets.FTP_PASS }}
+          ORPHAN: /home/u125929690/domains/sandybrown-jay-283993.hostingersite.com/public_html
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq lftp
           run_lftp() { lftp -u "$U,$P" "$H" -e "set ssl:verify-certificate no; $1; bye"; }
@@ -24,17 +25,20 @@ jobs:
           echo "=== ANTES: raiz del FTP (docroot de WordPress) ==="
           run_lftp "cls -1 /"
 
-          echo "=== ANTES: contenido del arbol huerfano ==="
-          run_lftp "find /home" | head -40
-
-          # Salvaguarda: la carpeta solo puede contener la cuenta u125929690.
-          # Si aparece cualquier otra cosa, el job falla sin tocar nada.
-          EXTRA=$(run_lftp "cls -1 /home/" | grep -v '^u125929690/\?$' | grep -v '^$' || true)
-          if [ -n "$EXTRA" ]; then
-            echo "Contenido inesperado, no se elimina nada:"
-            echo "$EXTRA"
+          # Salvaguarda 1: /home solo puede tener un hijo, la cuenta u125929690.
+          HIJOS=$(run_lftp "cls -1 /home/" | sed 's#/*$##' | sed 's#.*/##' | grep -v '^$' || true)
+          echo "Hijos de /home: [$HIJOS]"
+          if [ "$HIJOS" != "u125929690" ]; then
+            echo "Contenido inesperado en /home, no se elimina nada."
             exit 1
           fi
+
+          # Salvaguarda 2: el arbol tiene que ser la copia del tema, no otra cosa.
+          if ! run_lftp "cat $ORPHAN/style.css" | grep -q "Theme Name: Juan Felipe"; then
+            echo "El arbol no contiene la copia del tema, no se elimina nada."
+            exit 1
+          fi
+          echo "Confirmado: el arbol es la copia huerfana del tema."
 
           echo "=== Eliminando el arbol huerfano ==="
           run_lftp "rm -r /home"
@@ -42,5 +46,5 @@ jobs:
           echo "=== DESPUES: raiz del FTP ==="
           run_lftp "cls -1 /"
 
-          echo "=== El tema sigue en su lugar ==="
+          echo "=== El tema sigue en su carpeta ==="
           run_lftp "cls -1 /wp-content/themes/juan-felipe-zaldivar/"
