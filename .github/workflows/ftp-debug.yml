@@ -1,0 +1,35 @@
+name: Diagnóstico FTP (temporal)
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  tree:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Listar el árbol del FTP
+        env:
+          H: ${{ secrets.FTP_HOST }}
+          U: ${{ secrets.FTP_USER }}
+          P: ${{ secrets.FTP_PASS }}
+          D: ${{ secrets.FTP_REMOTE_DIR }}
+        run: |
+          echo "FTP_REMOTE_DIR configurado (longitud ${#D} caracteres)"
+          ls_dir() {
+            curl -s --connect-timeout 30 --max-time 90 -u "$U:$P" --list-only "ftp://$H$1" || true
+          }
+          echo "=== raíz FTP (/) ==="
+          ls_dir "/"
+          for d in $(ls_dir "/"); do
+            echo "=== /$d ==="
+            ls_dir "/$d/"
+            for e in $(ls_dir "/$d/"); do
+              case "$e" in
+                public_html|wp-content|domains|themes|*.hostingersite.com)
+                  echo "=== /$d/$e ==="
+                  ls_dir "/$d/$e/"
+                  ;;
+              esac
+            done
+          done
