@@ -5,18 +5,16 @@ on:
     branches: [master]
   workflow_dispatch:
 
+# La carpeta destino es relativa a la raíz de la cuenta FTP, que en este
+# hosting ya es el docroot de WordPress (ahí están wp-config.php y wp-content).
+env:
+  THEME_DIR: wp-content/themes/juan-felipe-zaldivar/
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-
-      # La action exige que la carpeta remota termine en "/"; se agrega si falta.
-      - name: Normalizar carpeta remota
-        id: dir
-        env:
-          REMOTE_DIR: ${{ secrets.FTP_REMOTE_DIR }}
-        run: echo "path=${REMOTE_DIR%/}/" >> "$GITHUB_OUTPUT"
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -25,7 +23,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: ./
-          server-dir: ${{ steps.dir.outputs.path }}
+          server-dir: ${{ env.THEME_DIR }}
           timeout: 120000
           exclude: |
             **/.git*
@@ -37,3 +35,16 @@ jobs:
             docs/**
             README.md
             package-lock.json
+
+      - name: Verificar que el tema quedó en su carpeta
+        env:
+          H: ${{ secrets.FTP_HOST }}
+          U: ${{ secrets.FTP_USER }}
+          P: ${{ secrets.FTP_PASS }}
+        run: |
+          echo "=== /wp-content/themes ==="
+          curl -s --connect-timeout 30 --max-time 90 -u "$U:$P" --list-only "ftp://$H/wp-content/themes/" || true
+          echo "=== /$THEME_DIR ==="
+          curl -s --connect-timeout 30 --max-time 90 -u "$U:$P" --list-only "ftp://$H/$THEME_DIR" || true
+          echo "=== restos de la subida anterior en /home (si los hay) ==="
+          curl -s --connect-timeout 30 --max-time 90 -u "$U:$P" --list-only "ftp://$H/home/" || true
