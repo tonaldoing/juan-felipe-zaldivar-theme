@@ -1,0 +1,126 @@
+// Aviso en portada.
+.aviso {
+	max-width: var(--medida);
+	margin-bottom: 2.5rem;
+	padding: 1.25rem 1.5rem;
+	border: 1px solid var(--acento);
+	border-radius: 4px;
+
+	&__label {
+		margin: 0 0 0.25rem;
+		font-size: 0.8125rem;
+		font-weight: 500;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--acento);
+	}
+
+	&__title {
+		font-size: 1.375rem;
+		font-weight: 500;
+		margin: 0 0 0.25rem;
+		line-height: 1.25;
+
+		a {
+			color: var(--tinta);
+			text-decoration: none;
+
+			&:hover {
+				color: var(--acento);
+			}
+		}
+	}
+
+	&__meta {
+		color: var(--tinta-2);
+		margin: 0 0 0.75rem;
+		font-size: 1rem;
+	}
+}
+
+// Listado.
+.eventos {
+	max-width: var(--medida);
+	margin-bottom: 3rem;
+
+	&--pasados .evento-card {
+		opacity: 0.7;
+	}
+}
+
+.evento-card {
+	display: grid;
+	grid-template-columns: 4.5rem 1fr;
+	gap: 1.25rem;
+	padding-block: 1.5rem;
+	border-top: 1px solid var(--linea);
+
+	&:first-of-type {
+		border-top: 0;
+		padding-top: 0.25rem;
+	}
+
+	&__fecha time {
+		display: block;
+		text-align: center;
+		line-height: 1.1;
+	}
+
+	&__dia {
+		display: block;
+		font-size: 2rem;
+		font-weight: 500;
+	}
+
+	&__mes {
+		display: block;
+		font-size: 0.75rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--gris);
+		margin-top: 0.2rem;
+	}
+
+	&__title {
+		font-size: 1.375rem;
+		margin-bottom: 0.25rem;
+
+		a {
+			color: var(--tinta);
+			text-decoration: none;
+
+			&:hover {
+				color: var(--acento);
+			}
+		}
+	}
+
+	&__lugar {
+		color: var(--tinta-2);
+		margin: 0 0 0.5rem;
+		font-size: 1rem;
+	}
+
+	&__excerpt {
+		color: var(--tinta-2);
+		font-size: 1rem;
+		margin-bottom: 0.75rem;
+	}
+}
+
+// Datos en la página del evento.
+.evento-datos {
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	gap: 0.25rem 1rem;
+	margin: 1rem 0 1.25rem;
+	font-size: 1.0625rem;
+
+	dt {
+		color: var(--gris);
+	}
+
+	dd {
+		margin: 0;
+	}
+}

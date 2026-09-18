@@ -1,0 +1,39 @@
+// Tokens. Los colores se definen como variables CSS para poder cambiar en modo oscuro.
+:root {
+	--papel: #faf8f3;
+	--papel-2: #f1ede4;
+	--tinta: #1d1b18;
+	--tinta-2: #4a463f;
+	--gris: #6b665e;
+	--linea: #ddd7cb;
+	--acento: #9b3d2e;
+	--acento-2: #7e3125;
+
+	--fuente: "Literata", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+	--medida: 40rem;
+	--medida-ancha: 56rem;
+	--gutter: 1rem;
+
+	--fs-base: 1.125rem;
+	--lh-base: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) {
+		--papel: #161513;
+		--papel-2: #201e1b;
+		--tinta: #e8e4dc;
+		--tinta-2: #bdb7ac;
+		--gris: #8f8980;
+		--linea: #35322d;
+		--acento: #d8735f;
+		--acento-2: #e68a77;
+	}
+}
+
+@media (min-width: 40rem) {
+	:root {
+		--gutter: 1.5rem;
+		--fs-base: 1.1875rem;
+	}
+}

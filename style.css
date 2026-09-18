@@ -1,0 +1,17 @@
+/*
+Theme Name: Juan Felipe Zaldívar
+Theme URI: https://github.com/tonaldoing/juan-felipe-zaldivar-theme
+Author: FeeloLab
+Author URI: https://feelolab.com
+Description: Tema a medida para el blog de Juan Felipe Zaldívar: poemas, traducciones, lecturas de libros, notas de cine y eventos. Texto primero, sin ornamentos.
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 6.9
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: juan-felipe-zaldivar
+Tags: blog, one-column, custom-menu, translation-ready
+*/
+
+/* Los estilos reales están en assets/css/style.css (compilado desde assets/scss). */

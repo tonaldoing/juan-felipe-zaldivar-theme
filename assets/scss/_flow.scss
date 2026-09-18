@@ -1,0 +1,142 @@
+// Filtro por tipo.
+.tipos {
+	margin-bottom: 2rem;
+
+	&__list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	&__link {
+		display: inline-block;
+		font-size: 0.875rem;
+		padding: 0.3em 0.85em;
+		border: 1px solid var(--linea);
+		border-radius: 999px;
+		color: var(--tinta-2);
+		text-decoration: none;
+
+		&:hover {
+			border-color: var(--tinta-2);
+			color: var(--tinta);
+		}
+
+		&.is-active {
+			background: var(--tinta);
+			border-color: var(--tinta);
+			color: var(--papel);
+		}
+	}
+}
+
+// Flujo de entradas.
+.flow {
+	max-width: var(--medida);
+}
+
+.card {
+	padding-block: 1.75rem;
+	border-top: 1px solid var(--linea);
+
+	&:first-child {
+		border-top: 0;
+		padding-top: 0.5rem;
+	}
+
+	&__meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 0.75rem;
+		align-items: baseline;
+		margin: 0 0 0.5rem;
+		font-size: 0.875rem;
+		color: var(--gris);
+	}
+
+	&__title {
+		font-size: clamp(1.375rem, 3vw, 1.75rem);
+		margin-bottom: 0.25rem;
+
+		a {
+			color: var(--tinta);
+			text-decoration: none;
+
+			&:hover {
+				color: var(--acento);
+			}
+		}
+	}
+
+	&__sub {
+		color: var(--tinta-2);
+		margin: 0 0 0.75rem;
+		font-size: 1rem;
+	}
+
+	&__preview {
+		color: var(--tinta-2);
+
+		p {
+			margin: 0;
+		}
+	}
+
+	&__more {
+		display: inline-block;
+		margin-top: 0.75rem;
+		font-size: 0.9375rem;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+// Poema como vista previa: primeros versos.
+.verso {
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.55;
+	margin: 0;
+
+	&--preview {
+		color: var(--tinta-2);
+	}
+}
+
+// Paginación.
+.pagination {
+	max-width: var(--medida);
+	margin-top: 2.5rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid var(--linea);
+
+	.nav-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem 1rem;
+		align-items: center;
+		font-size: 0.9375rem;
+	}
+
+	.page-numbers {
+		text-decoration: none;
+		color: var(--tinta-2);
+
+		&.current {
+			color: var(--tinta);
+			font-weight: 600;
+		}
+
+		&.dots {
+			color: var(--gris);
+		}
+	}
+}

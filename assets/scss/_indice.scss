@@ -1,0 +1,65 @@
+.entry--indice {
+	max-width: var(--medida);
+}
+
+.indice-nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1.25rem;
+	margin-bottom: 2.5rem;
+	font-size: 0.9375rem;
+
+	a {
+		text-decoration: none;
+		color: var(--tinta-2);
+
+		&:hover {
+			color: var(--acento);
+		}
+	}
+
+	&__count {
+		color: var(--gris);
+		font-size: 0.8125rem;
+	}
+}
+
+.indice {
+	margin-bottom: 2.5rem;
+
+	&__list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	&__item {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.25rem 0.75rem;
+		padding: 0.45rem 0;
+		border-bottom: 1px dotted var(--linea);
+
+		a {
+			color: var(--tinta);
+			text-decoration: none;
+
+			&:hover {
+				color: var(--acento);
+			}
+		}
+	}
+
+	&__extra {
+		color: var(--gris);
+		font-size: 0.9375rem;
+	}
+
+	&__year {
+		margin-left: auto;
+		color: var(--gris);
+		font-size: 0.875rem;
+		font-variant-numeric: tabular-nums;
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "name": "juan-felipe-zaldivar-theme",
+  "version": "1.0.0",
+  "description": "Tema WordPress a medida para Juan Felipe Zaldívar",
+  "private": true,
+  "scripts": {
+    "build": "sass assets/scss/style.scss assets/css/style.css --style=compressed --no-source-map && sass assets/scss/editor.scss assets/css/editor.css --style=compressed --no-source-map",
+    "dev": "sass assets/scss/style.scss assets/css/style.css --style=expanded --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}

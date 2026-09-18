@@ -1,0 +1,243 @@
+.entry {
+	max-width: var(--medida);
+
+	&__header {
+		margin-bottom: 2rem;
+	}
+
+	&__meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 0.75rem;
+		align-items: baseline;
+		margin: 0 0 0.75rem;
+		font-size: 0.875rem;
+		color: var(--gris);
+	}
+
+	&__title {
+		font-size: clamp(1.75rem, 5vw, 2.5rem);
+		margin-bottom: 0.5rem;
+	}
+
+	&__sub {
+		color: var(--tinta-2);
+		font-size: 1.0625rem;
+		margin: 0;
+	}
+
+	&__autor {
+		font-weight: 500;
+		color: var(--tinta);
+	}
+
+	&__thumb {
+		margin-block: 0 2rem;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__content {
+		font-size: var(--fs-base);
+
+		> * {
+			max-width: 100%;
+		}
+
+		h2 {
+			font-size: 1.5rem;
+			margin-top: 2rem;
+		}
+
+		h3 {
+			font-size: 1.25rem;
+			margin-top: 1.75rem;
+		}
+
+		figure {
+			margin-block: 2rem;
+		}
+
+		figcaption {
+			font-size: 0.875rem;
+			color: var(--gris);
+			margin-top: 0.5rem;
+		}
+
+		.wp-block-image img {
+			width: auto;
+			max-width: 100%;
+		}
+
+		// Bloque Verso: respeta líneas y estrofas.
+		.wp-block-verse {
+			white-space: pre-wrap;
+			overflow-wrap: break-word;
+			font-family: inherit;
+			font-size: inherit;
+			line-height: 1.55;
+			padding: 0;
+			background: none;
+			border: 0;
+		}
+
+		&--intro {
+			color: var(--tinta-2);
+			margin-bottom: 2rem;
+		}
+	}
+
+	&__footer {
+		margin-top: 3rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--linea);
+		font-size: 0.9375rem;
+	}
+
+	&__tags {
+		color: var(--gris);
+	}
+
+	&__back {
+		margin: 1.5rem 0 0;
+
+		a {
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+// Poemas: los párrafos son estrofas, las líneas dentro se escriben con Shift+Enter.
+.entry--poema,
+.entry--traduccion {
+	.entry__content {
+		line-height: 1.55;
+
+		p {
+			margin-bottom: 1.4em;
+		}
+	}
+}
+
+// Traducción a dos columnas.
+.bilingue {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: 1fr;
+	max-width: var(--medida-ancha);
+
+	&__label {
+		font-size: 0.8125rem;
+		font-weight: 500;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--gris);
+		margin: 0 0 1rem;
+		padding-bottom: 0.4rem;
+		border-bottom: 1px solid var(--linea);
+	}
+
+	&__col--original {
+		color: var(--tinta-2);
+	}
+
+	@media (min-width: 48rem) {
+		grid-template-columns: 1fr 1fr;
+		gap: 3rem;
+	}
+}
+
+.entry--traduccion {
+	max-width: var(--medida-ancha);
+
+	.entry__header,
+	.entry__footer {
+		max-width: var(--medida);
+	}
+}
+
+// Ficha de libro o película.
+.ficha {
+	display: flex;
+	gap: 1.5rem;
+	align-items: flex-start;
+	margin-top: 1.25rem;
+	padding: 1.25rem;
+	background: var(--papel-2);
+	border-radius: 4px;
+
+	&__portada {
+		flex: 0 0 auto;
+		width: 6.5rem;
+
+		img {
+			width: 100%;
+			border-radius: 2px;
+		}
+	}
+
+	&__datos {
+		margin: 0;
+		font-size: 0.9375rem;
+		display: grid;
+		grid-template-columns: max-content 1fr;
+		gap: 0.25rem 1rem;
+
+		dt {
+			color: var(--gris);
+		}
+
+		dd {
+			margin: 0;
+		}
+	}
+}
+
+// Navegación anterior / siguiente.
+.entry-nav {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr;
+	margin-top: 1rem;
+
+	@media (min-width: 40rem) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	&__link {
+		display: block;
+		text-decoration: none;
+		color: var(--tinta);
+		padding: 0.75rem 1rem;
+		border: 1px solid var(--linea);
+		border-radius: 4px;
+
+		&:hover {
+			border-color: var(--tinta-2);
+			color: var(--tinta);
+		}
+
+		&--prev {
+			text-align: right;
+		}
+	}
+
+	&__label {
+		display: block;
+		font-size: 0.8125rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--gris);
+	}
+
+	&__title {
+		display: block;
+		font-weight: 500;
+	}
+}

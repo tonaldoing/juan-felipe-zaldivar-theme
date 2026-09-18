@@ -1,0 +1,45 @@
+// Estilos del editor de bloques: que el texto se vea como en el sitio.
+@use "variables";
+@use "fonts";
+
+.editor-styles-wrapper {
+	background: var(--papel);
+	color: var(--tinta);
+	font-family: var(--fuente);
+	font-size: var(--fs-base);
+	line-height: var(--lh-base);
+
+	.wp-block {
+		max-width: var(--medida);
+	}
+
+	h1,
+	h2,
+	h3 {
+		font-weight: 500;
+		line-height: 1.2;
+		letter-spacing: -0.01em;
+	}
+
+	.editor-post-title__input,
+	.wp-block-post-title {
+		font-family: var(--fuente);
+		font-weight: 500;
+		font-size: 2.25rem;
+		letter-spacing: -0.01em;
+	}
+
+	.wp-block-verse {
+		font-family: var(--fuente);
+		font-size: inherit;
+		line-height: 1.55;
+		white-space: pre-wrap;
+		padding: 0;
+		background: none;
+		border: 0;
+	}
+
+	a {
+		color: var(--acento);
+	}
+}

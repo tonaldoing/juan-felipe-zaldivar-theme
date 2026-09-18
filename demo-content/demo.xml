@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Contenido de ejemplo del tema Juan Felipe Zaldívar. Importar desde Herramientas → Importar → WordPress. -->
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+	<title>Juan Felipe Zaldívar</title>
+	<link>https://ejemplo.invalid</link>
+	<description>Contenido de ejemplo</description>
+	<pubDate>Fri, 18 Sep 2026 14:20:20 +0000</pubDate>
+	<language>es-AR</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://ejemplo.invalid</wp:base_site_url>
+	<wp:base_blog_url>https://ejemplo.invalid</wp:base_blog_url>
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[jfz]]></wp:author_login><wp:author_email><![CDATA[jfz@ejemplo.invalid]]></wp:author_email><wp:author_display_name><![CDATA[Juan Felipe Zaldívar]]></wp:author_display_name><wp:author_first_name><![CDATA[Juan Felipe]]></wp:author_first_name><wp:author_last_name><![CDATA[Zaldívar]]></wp:author_last_name></wp:author>
+	<wp:term><wp:term_id>2</wp:term_id><wp:term_taxonomy><![CDATA[tipo]]></wp:term_taxonomy><wp:term_slug><![CDATA[poema]]></wp:term_slug><wp:term_name><![CDATA[Poema]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>3</wp:term_id><wp:term_taxonomy><![CDATA[tipo]]></wp:term_taxonomy><wp:term_slug><![CDATA[traduccion]]></wp:term_slug><wp:term_name><![CDATA[Traducción]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>4</wp:term_id><wp:term_taxonomy><![CDATA[tipo]]></wp:term_taxonomy><wp:term_slug><![CDATA[libros]]></wp:term_slug><wp:term_name><![CDATA[Libros]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>5</wp:term_id><wp:term_taxonomy><![CDATA[tipo]]></wp:term_taxonomy><wp:term_slug><![CDATA[cine]]></wp:term_slug><wp:term_name><![CDATA[Cine]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>6</wp:term_id><wp:term_taxonomy><![CDATA[tipo]]></wp:term_taxonomy><wp:term_slug><![CDATA[nota]]></wp:term_slug><wp:term_name><![CDATA[Nota]]></wp:term_name></wp:term>
+	<wp:tag><wp:term_id>7</wp:term_id><wp:tag_slug><![CDATA[demo]]></wp:tag_slug><wp:tag_name><![CDATA[demo]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>8</wp:term_id><wp:tag_slug><![CDATA[narrativa-mexicana]]></wp:tag_slug><wp:tag_name><![CDATA[narrativa mexicana]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>9</wp:term_id><wp:tag_slug><![CDATA[cine-argentino]]></wp:tag_slug><wp:tag_name><![CDATA[cine argentino]]></wp:tag_name></wp:tag>
+	<item>
+		<title><![CDATA[Inventario de la casa vacía]]></title>
+		<link>https://ejemplo.invalid/inventario-de-la-casa-vacia/</link>
+		<pubDate>Mon, 14 Sep 2026 12:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1001</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Una silla que nadie corre.<br>Un vaso con la marca de otro vaso.<br>La luz que entra igual<br>aunque no haya quien la mire.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Cuento lo que queda<br>como se cuentan las monedas<br>al final de un viaje:<br>no por lo que valen,<br>por saber que estuvieron.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Afuera un perro ladra<br>a la misma nada de siempre.<br>Adentro yo hago la lista<br>y la lista me hace a mí.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1001</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-14 09:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-14 12:30:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-14 09:30:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-14 12:30:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[inventario-de-la-casa-vacia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="poema"><![CDATA[Poema]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_libro]]></wp:meta_key><wp:meta_value><![CDATA[Inventario]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Lo que el río no dijo]]></title>
+		<link>https://ejemplo.invalid/lo-que-el-rio-no-dijo/</link>
+		<pubDate>Sun, 30 Aug 2026 21:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1002</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>El río no dijo nada<br>y sin embargo lo anoté.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hay silencios que son agua:<br>pasan, se llevan la orilla,<br>dejan una forma nueva<br>donde antes había un nombre.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Volví al día siguiente<br>con la libreta abierta.<br>El río seguía sin decir.<br>Yo seguí escuchando.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1002</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-30 18:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-30 21:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-08-30 18:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-30 21:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[lo-que-el-rio-no-dijo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="poema"><![CDATA[Poema]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Domingo]]></title>
+		<link>https://ejemplo.invalid/domingo/</link>
+		<pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1003</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>La ciudad se queda quieta<br>como un animal que duerme al sol.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Alguien lava un auto,<br>alguien discute por teléfono,<br>alguien no hace nada<br>y ese alguien soy yo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>El domingo es un cuarto<br>sin puertas ni ventanas<br>y sin embargo entra el viento.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1003</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-09 11:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-09 14:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-08-09 11:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-09 14:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[domingo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="poema"><![CDATA[Poema]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Oficio]]></title>
+		<link>https://ejemplo.invalid/oficio/</link>
+		<pubDate>Sun, 21 Jun 2026 11:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1004</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Escribir es poner una piedra<br>sobre otra piedra<br>y esperar que no se caigan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A veces se caen.<br>Entonces uno mira las piedras<br>en el suelo, desordenadas,<br>y descubre que también así<br>dicen algo.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1004</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-21 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-21 11:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-21 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-21 11:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[oficio]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="poema"><![CDATA[Poema]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_libro]]></wp:meta_key><wp:meta_value><![CDATA[Inventario]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Mapa de una ciudad que no existe]]></title>
+		<link>https://ejemplo.invalid/mapa-de-una-ciudad-que-no-existe/</link>
+		<pubDate>Fri, 03 Apr 2026 23:15:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1005</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Acá estaba la casa de mi abuela,<br>acá el almacén que cerró,<br>acá la esquina donde alguien<br>me dijo una cosa que no olvido.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>El mapa tiene calles<br>que solo yo puedo caminar.<br>Si lo doblo, la ciudad se dobla.<br>Si lo pierdo, me pierdo yo.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1005</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-03 20:15:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-04-03 23:15:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-04-03 20:15:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-04-03 23:15:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[mapa-de-una-ciudad-que-no-existe]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="poema"><![CDATA[Poema]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[No soy Nadie. ¿Vos quién sos?]]></title>
+		<link>https://ejemplo.invalid/no-soy-nadie-vos-quien-sos/</link>
+		<pubDate>Sun, 06 Sep 2026 13:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1006</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>No soy Nadie. ¿Vos quién sos?<br>¿Sos – Nadie – también?<br>¡Entonces ya somos dos!<br>No lo digas: nos harían propaganda – ya sabés.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>¡Qué triste – ser – Alguien!<br>Qué público – como una rana –<br>decir el propio nombre – todo junio –<br>a un pantano que te admira.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1006</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-06 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-06 13:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-06 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-06 13:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[no-soy-nadie-vos-quien-sos]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="traduccion"><![CDATA[Traducción]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_autor_original]]></wp:meta_key><wp:meta_value><![CDATA[Emily Dickinson]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_titulo_original]]></wp:meta_key><wp:meta_value><![CDATA[I'm Nobody! Who are you?]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_idioma]]></wp:meta_key><wp:meta_value><![CDATA[inglés]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_texto_original]]></wp:meta_key><wp:meta_value><![CDATA[I'm Nobody! Who are you?
+Are you – Nobody – too?
+Then there's a pair of us!
+Don't tell! they'd advertise – you know!
+
+How dreary – to be – Somebody!
+How public – like a Frog –
+To tell one's name – the livelong June –
+To an admiring Bog!]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Autopsicografía]]></title>
+		<link>https://ejemplo.invalid/autopsicografia/</link>
+		<pubDate>Sat, 18 Jul 2026 20:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1007</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>El poeta es un fingidor.<br>Finge tan completamente<br>que llega a fingir que es dolor<br>el dolor que de veras siente.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Y los que leen lo que escribe,<br>en el dolor leído sienten bien,<br>no los dos que él tuvo,<br>sino solo el que ellos no tienen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Y así, por los rieles de la rueda,<br>gira, entreteniendo a la razón,<br>ese trencito de cuerda<br>que se llama corazón.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1007</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-18 17:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-18 20:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-18 17:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-18 20:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[autopsicografia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="traduccion"><![CDATA[Traducción]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_autor_original]]></wp:meta_key><wp:meta_value><![CDATA[Fernando Pessoa]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_titulo_original]]></wp:meta_key><wp:meta_value><![CDATA[Autopsicografia]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_idioma]]></wp:meta_key><wp:meta_value><![CDATA[portugués]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_texto_original]]></wp:meta_key><wp:meta_value><![CDATA[O poeta é um fingidor.
+Finge tão completamente
+Que chega a fingir que é dor
+A dor que deveras sente.
+
+E os que lêem o que escreve,
+Na dor lida sentem bem,
+Não as duas que ele teve,
+Mas só a que eles não têm.
+
+E assim nas calhas de roda
+Gira, a entreter a razão,
+Esse comboio de corda
+Que se chama coração.]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Día de otoño]]></title>
+		<link>https://ejemplo.invalid/dia-de-otono/</link>
+		<pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1008</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Señor: es tiempo. El verano fue muy grande.<br>Poné tu sombra sobre los relojes de sol<br>y soltá los vientos en los campos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ordená a los últimos frutos que maduren;<br>dales todavía dos días más del sur,<br>empujalos a completarse y apurá<br>la última dulzura en el vino pesado.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Quien ahora no tiene casa, ya no la construye.<br>Quien ahora está solo, lo estará por mucho tiempo:<br>va a velar, a leer, a escribir cartas largas,<br>y va a andar por las alamedas, de acá para allá,<br>inquieto, cuando se muevan las hojas.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1008</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-11 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-11 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-05-11 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-05-11 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dia-de-otono]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="traduccion"><![CDATA[Traducción]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_autor_original]]></wp:meta_key><wp:meta_value><![CDATA[Rainer Maria Rilke]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_titulo_original]]></wp:meta_key><wp:meta_value><![CDATA[Herbsttag]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_idioma]]></wp:meta_key><wp:meta_value><![CDATA[alemán]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_texto_original]]></wp:meta_key><wp:meta_value><![CDATA[Herr: es ist Zeit. Der Sommer war sehr groß.
+Leg deinen Schatten auf die Sonnenuhren,
+und auf den Fluren laß die Winde los.
+
+Befiehl den letzten Früchten voll zu sein;
+gib ihnen noch zwei südlichere Tage,
+dränge sie zur Vollendung hin und jage
+die letzte Süße in den schweren Wein.
+
+Wer jetzt kein Haus hat, baut sich keines mehr.
+Wer jetzt allein ist, wird es lange bleiben,
+wird wachen, lesen, lange Briefe schreiben
+und wird in den Alleen hin und her
+unruhig wandern, wenn die Blätter treiben.]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Leer a Rulfo de noche]]></title>
+		<link>https://ejemplo.invalid/leer-a-rulfo-de-noche/</link>
+		<pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1009</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Hay libros que piden una hora. <em>Pedro Páramo</em> pide la noche: no por efecto, sino porque su lógica es la del insomnio, la de las voces que se oyen cuando ya no hay nada que las tape. Volví a leerlo esta semana, de un tirón, y me pasó lo mismo que la primera vez: al terminar no sabía bien cuántos personajes estaban vivos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Rulfo no explica. Corta. Cada fragmento es una lápida con una frase grabada, y el lector camina entre ellas armando la historia como puede. Esa economía, que en otro sería pobreza, acá es una forma de respeto: confía en que uno escuche.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Lo que se pierde en la relectura</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lo que se pierde es la sorpresa del mecanismo. Lo que se gana es otra cosa: la posibilidad de detenerse en los murmullos, en las frases que en la primera lectura pasan como paisaje. "Este pueblo está lleno de ecos." Uno vuelve y los ecos son otros.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Si tuviera que decir de qué trata, diría que trata de la imposibilidad de irse. Comala no retiene a nadie por la fuerza; retiene porque afuera no hay nada que no sea también Comala.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1009</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-10 21:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-11 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-10 21:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-11 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[leer-a-rulfo-de-noche]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="libros"><![CDATA[Libros]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<category domain="post_tag" nicename="narrativa-mexicana"><![CDATA[narrativa mexicana]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_titulo]]></wp:meta_key><wp:meta_value><![CDATA[Pedro Páramo]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_autor]]></wp:meta_key><wp:meta_value><![CDATA[Juan Rulfo]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_anio]]></wp:meta_key><wp:meta_value><![CDATA[1955]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_editorial]]></wp:meta_key><wp:meta_value><![CDATA[Fondo de Cultura Económica]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Bartleby, o el arte de no]]></title>
+		<link>https://ejemplo.invalid/bartleby-o-el-arte-de-no/</link>
+		<pubDate>Thu, 02 Jul 2026 15:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1010</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>"Preferiría no hacerlo." La frase se volvió lema de remera y eso, en cierto modo, es un triunfo del cuento: sobrevivió a su propia explicación. Pero cada vez que lo releo me interesa menos Bartleby y más el abogado que narra, ese hombre razonable que no sabe qué hacer con alguien que simplemente no colabora.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Melville escribe una comedia de oficina que se va convirtiendo en otra cosa sin que uno note el momento del cambio. Es un relato sobre la caridad y sus límites, sobre lo que hacemos con los que no encajan en ninguna de nuestras categorías de ayuda.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hay una lectura política, hay una lectura teológica, hay una lectura sobre la escritura misma (un copista que deja de copiar). Todas funcionan y ninguna cierra. Eso es lo que lo mantiene vivo.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1010</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-02 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-02 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-02 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-02 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[bartleby-o-el-arte-de-no]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="libros"><![CDATA[Libros]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_titulo]]></wp:meta_key><wp:meta_value><![CDATA[Bartleby, el escribiente]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_autor]]></wp:meta_key><wp:meta_value><![CDATA[Herman Melville]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_anio]]></wp:meta_key><wp:meta_value><![CDATA[1853]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Los cuadernos de Malte: la ciudad como herida]]></title>
+		<link>https://ejemplo.invalid/los-cuadernos-de-malte-la-ciudad-como-herida/</link>
+		<pubDate>Sun, 19 Apr 2026 13:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1011</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Rilke llegó a París y la ciudad lo enfermó. De esa enfermedad salió este libro, que no es novela ni diario ni ensayo, o es las tres cosas turnándose. Malte camina, mira, recuerda su infancia en Dinamarca, y todo lo que ve parece estar a punto de romperse.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>"Así que aquí vienen las personas a vivir; yo más bien pensaría que aquí se muere." Es la primera frase y ya está todo: la mirada que convierte cada esquina en un síntoma.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lo leí mientras traducía <em>Día de otoño</em> y me sirvió para entender algo del tono: en Rilke la desolación no es un grito, es una atención excesiva. Se mira demasiado y por eso duele.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1011</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-19 10:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-04-19 13:30:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-04-19 10:30:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-04-19 13:30:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[los-cuadernos-de-malte-la-ciudad-como-herida]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="libros"><![CDATA[Libros]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_titulo]]></wp:meta_key><wp:meta_value><![CDATA[Los cuadernos de Malte Laurids Brigge]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_autor]]></wp:meta_key><wp:meta_value><![CDATA[Rainer Maria Rilke]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_anio]]></wp:meta_key><wp:meta_value><![CDATA[1910]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[La zona y el deseo]]></title>
+		<link>https://ejemplo.invalid/la-zona-y-el-deseo/</link>
+		<pubDate>Sun, 23 Aug 2026 02:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1012</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Tres hombres caminan hacia un cuarto donde, dicen, se cumplen los deseos. Tardan dos horas y media en llegar y cuando llegan no entran. Contada así, <em>Stalker</em> parece una broma. Vista, es una de las experiencias más físicas que conozco en el cine: uno sale con el cuerpo cansado, como si hubiera caminado con ellos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tarkovski filma el tiempo. No la acción, no la trama: el tiempo pasando sobre las cosas, el agua que gotea, la hierba que se mueve. La Zona no es un lugar peligroso porque haya trampas; es peligrosa porque obliga a estar presente.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Me interesa sobre todo el personaje del Escritor, que va a la Zona buscando inspiración y encuentra que su cinismo no le sirve de nada ahí. Hay una lección para cualquiera que escriba, aunque prefiero no formularla.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1012</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-22 23:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-23 02:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-08-22 23:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-23 02:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[la-zona-y-el-deseo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="cine"><![CDATA[Cine]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_titulo]]></wp:meta_key><wp:meta_value><![CDATA[Stalker]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_director]]></wp:meta_key><wp:meta_value><![CDATA[Andréi Tarkovski]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_anio]]></wp:meta_key><wp:meta_value><![CDATA[1979]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[El calor que no se va]]></title>
+		<link>https://ejemplo.invalid/el-calor-que-no-se-va/</link>
+		<pubDate>Sat, 30 May 2026 22:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1013</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Una pileta con agua podrida, una familia que se arrastra por una casa en Salta, un accidente que nadie termina de atender. <em>La ciénaga</em> es una película sin argumento en el sentido tradicional y, sin embargo, uno sabe en cada momento exactamente qué está pasando: algo se pudre y nadie hace nada.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Martel trabaja con el sonido como pocos. Los truenos que no traen lluvia, los vasos que se rompen fuera de cuadro, los gritos de los chicos que se mezclan con la televisión. El malestar entra por el oído antes que por los ojos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>La vi por primera vez a los veinte años y me pareció lenta. La volví a ver ahora y me pareció exacta. No cambió la película.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1013</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-30 19:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-30 22:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-05-30 19:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-05-30 22:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[el-calor-que-no-se-va]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="cine"><![CDATA[Cine]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<category domain="post_tag" nicename="cine-argentino"><![CDATA[cine argentino]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_titulo]]></wp:meta_key><wp:meta_value><![CDATA[La ciénaga]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_director]]></wp:meta_key><wp:meta_value><![CDATA[Lucrecia Martel]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_obra_anio]]></wp:meta_key><wp:meta_value><![CDATA[2001]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Sobre traducir, o por qué elegí mal la palabra]]></title>
+		<link>https://ejemplo.invalid/sobre-traducir-o-por-que-elegi-mal-la-palabra/</link>
+		<pubDate>Fri, 05 Jun 2026 18:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1014</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Cuando traduje el poema de Dickinson dudé mucho en el primer verso. "Who are you?" puede ser "¿quién eres?" o "¿quién sos?", y esa decisión mínima define todo lo demás: el tono, la distancia, el país desde el que se habla.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Elegí el voseo porque es la lengua en la que pienso, y porque Dickinson escribía con una intimidad que en mi oído suena a vos y no a tú. Pero sé que es una elección, no una verdad. Cada traducción es una versión posible, y esta página va a tener, con el tiempo, varias versiones del mismo poema. No me parece un problema. Me parece la única manera honesta de hacerlo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Esta nota es también una explicación de método: cuando publico una traducción, dejo el original al lado. No para que se compare como en un examen, sino para que el lector tenga las dos músicas.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1014</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-05 15:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-05 18:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-05 15:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-05 18:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sobre-traducir-o-por-que-elegi-mal-la-palabra]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="tipo" nicename="nota"><![CDATA[Nota]]></category>
+		<category domain="post_tag" nicename="demo"><![CDATA[demo]]></category>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Lectura: poemas nuevos y traducciones]]></title>
+		<link>https://ejemplo.invalid/evento/lectura-poemas-nuevos-y-traducciones/</link>
+		<pubDate>Sat, 12 Sep 2026 15:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1015</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Voy a leer poemas de <em>Inventario</em> y algunos textos nuevos que todavía no publiqué acá. Después, un rato de traducciones: Dickinson, Pessoa y Rilke, con los originales a mano para quien quiera seguirlos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>La entrada es libre pero el lugar es chico, así que conviene reservar.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Lectura de textos inéditos y de las traducciones de Dickinson y Rilke, con conversación al final.]]></excerpt:encoded>
+		<wp:post_id>1015</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-12 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-12 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-12 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-12 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[lectura-poemas-nuevos-y-traducciones]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[evento]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_fecha]]></wp:meta_key><wp:meta_value><![CDATA[2026-10-24]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_hora]]></wp:meta_key><wp:meta_value><![CDATA[19:30]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_lugar]]></wp:meta_key><wp:meta_value><![CDATA[Café Literario del Bajo]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_ciudad]]></wp:meta_key><wp:meta_value><![CDATA[Buenos Aires]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_link]]></wp:meta_key><wp:meta_value><![CDATA[https://ejemplo.invalid/reservas]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_link_texto]]></wp:meta_key><wp:meta_value><![CDATA[Reservar lugar]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Presentación de Inventario]]></title>
+		<link>https://ejemplo.invalid/evento/presentacion-de-inventario/</link>
+		<pubDate>Mon, 20 Jul 2026 15:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1016</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Presentación de <em>Inventario</em>, mi primer libro de poemas. Leí algunos textos y conversamos sobre el proceso de escritura. Gracias a todos los que vinieron.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Presentación del libro con lectura y conversación.]]></excerpt:encoded>
+		<wp:post_id>1016</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-20 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-20 15:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-20 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-20 15:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[presentacion-de-inventario]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[evento]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_fecha]]></wp:meta_key><wp:meta_value><![CDATA[2026-08-12]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_hora]]></wp:meta_key><wp:meta_value><![CDATA[19:00]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_lugar]]></wp:meta_key><wp:meta_value><![CDATA[Librería El Ateneo del Barrio]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_evento_ciudad]]></wp:meta_key><wp:meta_value><![CDATA[Buenos Aires]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key><![CDATA[_jfz_demo]]></wp:meta_key><wp:meta_value><![CDATA[1]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Índice]]></title>
+		<link>https://ejemplo.invalid/indice/</link>
+		<pubDate>Sun, 01 Mar 2026 13:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1017</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Todos los textos publicados en este sitio, agrupados por tipo. Los más recientes van primero.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1017</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-01 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-01 13:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-01 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-01 13:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[indice]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta><wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key><wp:meta_value><![CDATA[page-templates/indice.php]]></wp:meta_value></wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Sobre mí]]></title>
+		<link>https://ejemplo.invalid/sobre-mi/</link>
+		<pubDate>Sun, 01 Mar 2026 13:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[jfz]]></dc:creator>
+		<guid isPermaLink="false">https://ejemplo.invalid/?p=1018</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[Texto de ejemplo. Editá esta página desde el admin: Páginas → Sobre mí.]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Soy Juan Felipe Zaldívar. Escribo poemas, traduzco poemas de otros y anoto lo que leo y lo que veo. Este sitio es el lugar donde junto todo eso, sin más orden que el de las fechas.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Libros</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><em>Inventario</em> (poemas). [Completar con editorial y año.]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Contacto</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Se puede escribir a la dirección que figura al pie de la página, o seguir las novedades por correo suscribiéndose más abajo.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1018</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-01 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-01 13:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-01 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-01 13:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sobre-mi]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+</channel>
+</rss>
