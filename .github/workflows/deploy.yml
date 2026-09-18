@@ -26,6 +26,7 @@ jobs:
           password: ${{ secrets.FTP_PASS }}
           local-dir: ./
           server-dir: ${{ steps.dir.outputs.path }}
+          timeout: 120000
           exclude: |
             **/.git*
             **/.git*/**
