@@ -83,9 +83,12 @@ php scripts/build-demo-xml.php > demo-content/demo.xml
 
 | Secret | Valor |
 |---|---|
-| `FTP_HOST` | host FTP del hosting (Hostinger: `ftp.tudominio.com` o la IP que muestra hPanel) |
+| `FTP_HOST` | IP o host FTP del hosting. En Hostinger, el hostname `ftp.<sitio>.hostingersite.com` resuelve a un pool de proxies que no atiende el puerto 21: hay que usar la **IP de FTP** que figura en hPanel. |
 | `FTP_USER` | usuario FTP |
 | `FTP_PASS` | contraseña FTP |
-| `FTP_REMOTE_DIR` | carpeta del tema, por ejemplo `/public_html/wp-content/themes/juan-felipe-zaldivar/` |
 
-La carpeta remota se crea sola en el primer deploy. Después de ese primer deploy hay que activar el tema en Apariencia → Temas.
+La carpeta destino **no** es un secret: está fija en el workflow, en `THEME_DIR`. En este hosting la raíz de la cuenta FTP ya es el docroot de WordPress (ahí están `wp-config.php` y `wp-content`), así que el destino es `wp-content/themes/juan-felipe-zaldivar/`, relativo a esa raíz. Si el hosting cambia y la cuenta FTP apunta más arriba, hay que anteponer el tramo que falte (por ejemplo `public_html/`).
+
+Cada deploy termina listando por FTP la carpeta del tema, así el log muestra si los archivos llegaron a donde corresponde.
+
+Después del primer deploy hay que activar el tema una vez, en Apariencia → Temas.
