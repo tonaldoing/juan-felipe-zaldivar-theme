@@ -11,14 +11,21 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Deploy via SFTP
+      # La action exige que la carpeta remota termine en "/"; se agrega si falta.
+      - name: Normalizar carpeta remota
+        id: dir
+        env:
+          REMOTE_DIR: ${{ secrets.FTP_REMOTE_DIR }}
+        run: echo "path=${REMOTE_DIR%/}/" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: ./
-          server-dir: ${{ secrets.FTP_REMOTE_DIR }}
+          server-dir: ${{ steps.dir.outputs.path }}
           exclude: |
             **/.git*
             **/.git*/**
