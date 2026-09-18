@@ -1,0 +1,46 @@
+name: Limpieza puntual del docroot
+
+on:
+  push:
+    branches: [master]
+
+# Elimina el arbol huerfano que dejaron los primeros deploys dentro del docroot:
+# <docroot>/home/u125929690/... WordPress no usa esa ruta; la creo este mismo
+# workflow de deploy al recibir una ruta absoluta como carpeta destino.
+# Corre una sola vez y despues este archivo se borra del repo.
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Revisar y limpiar
+        env:
+          H: ${{ secrets.FTP_HOST }}
+          U: ${{ secrets.FTP_USER }}
+          P: ${{ secrets.FTP_PASS }}
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+          run_lftp() { lftp -u "$U,$P" "$H" -e "set ssl:verify-certificate no; $1; bye"; }
+
+          echo "=== ANTES: raiz del FTP (docroot de WordPress) ==="
+          run_lftp "cls -1 /"
+
+          echo "=== ANTES: contenido del arbol huerfano ==="
+          run_lftp "find /home" | head -40
+
+          # Salvaguarda: la carpeta solo puede contener la cuenta u125929690.
+          # Si aparece cualquier otra cosa, el job falla sin tocar nada.
+          EXTRA=$(run_lftp "cls -1 /home/" | grep -v '^u125929690/\?$' | grep -v '^$' || true)
+          if [ -n "$EXTRA" ]; then
+            echo "Contenido inesperado, no se elimina nada:"
+            echo "$EXTRA"
+            exit 1
+          fi
+
+          echo "=== Eliminando el arbol huerfano ==="
+          run_lftp "rm -r /home"
+
+          echo "=== DESPUES: raiz del FTP ==="
+          run_lftp "cls -1 /"
+
+          echo "=== El tema sigue en su lugar ==="
+          run_lftp "cls -1 /wp-content/themes/juan-felipe-zaldivar/"
